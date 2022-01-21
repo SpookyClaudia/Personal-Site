@@ -1,0 +1,152 @@
+            /************************** TAGS *********************/
+            
+            body {
+                margin: 0;
+                text-align: center;
+                font-family: 'Merriweather', serif;
+                font-size: 200%;
+            }
+            
+            h1 {
+                margin-top: 0;
+                font-family: 'Sacramento', cursive;
+                font-size: 562.5%;
+                margin: 50px, auto, 0, auto;
+                color: #66BFBF;
+                line-height: 2;
+            }
+            
+            h2 {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 2.5rem;
+                color: #66BFBF;
+                font-weight: normal;
+            }
+            
+            h3 {
+                color: #11999E;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.5rem;
+            }
+            
+            p {
+                line-height: 2;
+            }
+            
+            hr {
+                border: dotted rgb(180, 180, 180) 6px;
+                border-bottom: 0px;
+                width: 4%;
+                margin: 100px auto;
+            }
+            
+            a {
+                font-family: 'Montserrat', sans-serif;
+                margin: 10px 20px;
+                color: white;
+                text-decoration: none;
+            }
+            
+            a:hover {
+                color: #7eceff;
+            }
+            /************************** CLASS *********************/
+            
+            .top-container {
+                background-color: rgb(252, 238, 245);
+                position: relative;
+                padding-top: 100px;
+            }
+            
+            .bottom-container {
+                background-color: #ff71aa;
+                padding: 50px 0 20px;
+            }
+            
+            .pro {
+                text-decoration: underline;
+            }
+            
+            .intro {
+                width: 30%;
+                margin: auto;
+            }
+            
+            .bottom-cloud {
+                position: absolute;
+                left: 300px;
+                bottom: 300px;
+            }
+            
+            .top-cloud {
+                position: absolute;
+                right: 300px;
+                top: 30px;
+            }
+            
+            .skill-row {
+                width: 50%;
+                margin: auto;
+                margin: 100px, auto 100px auto;
+                text-align: left;
+            }
+            
+            .github-pic {
+                width: 25%;
+                float: right;
+                margin-left: 30px;
+                line-height: 2;
+            }
+            
+            .computer-pic {
+                width: 25%;
+                float: left;
+                margin-right: 30px;
+            }
+            
+            .help-desk-skill-description {
+                clear: left;
+            }
+            
+            .programming-skill-description {
+                clear: right;
+            }
+            
+            .contact-me {
+                width: 40%;
+                margin: 40px auto 60px;
+            }
+            
+            .btn {
+                background: #ffffff;
+                background-image: -webkit-linear-gradient(top, #ffffff, #e6538e);
+                background-image: -moz-linear-gradient(top, #ffffff, #e6538e);
+                background-image: -ms-linear-gradient(top, #ffffff, #e6538e);
+                background-image: -o-linear-gradient(top, #ffffff, #e6538e);
+                background-image: linear-gradient(to bottom, #ffffff, #e6538e);
+                -webkit-border-radius: 12;
+                -moz-border-radius: 12;
+                border-radius: 12px;
+                text-shadow: 1px 1px 3px #b9b9b9;
+                -webkit-box-shadow: 0px 1px 3px #000000;
+                -moz-box-shadow: 0px 1px 3px #000000;
+                box-shadow: 0px 1px 3px #000000;
+                font-family: 'Montserrat';
+                color: #ffffff;
+                font-size: 27px;
+                padding: 10px 10px 10px 10px;
+                border: solid #000000 2px;
+                text-decoration: none;
+            }
+            
+            .btn:hover {
+                background: #c8e7fa;
+                text-decoration: none;
+            }
+            
+            .copyright {
+                font-size: 15px;
+                color: white;
+                padding: 20px 0;
+            }
+            /************************** ID *********************/
